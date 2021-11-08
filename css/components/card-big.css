@@ -1,0 +1,81 @@
+.cards-big  {
+ display: flex; 
+ justify-content: center;
+ height: 230px;
+ flex-wrap: nowrap ;
+}
+
+.card-big {
+background-color: green;
+width: 400px;
+height: 210px;
+border-radius: 9px;
+padding: 4px;
+margin-right: 0px;
+margin-left: 0px;
+margin: 4px;
+}
+
+
+.card-big a {
+background-color:#F9AB05 ;
+  padding: 4px 16px;
+  border-radius: 9px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  position: relative;
+  top: 87%; left: 62%;
+}
+
+
+
+.car-7 {
+  background-image: url(../../images/register.jpg);
+  background-size: cover;
+  max-width: 100%;
+}
+
+.car-8 {
+  background-image: url(../../images/host.jpg);
+  background-size: cover;
+  max-width:100% ;
+}
+
+
+
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .cards-big  {
+    width: 800px;
+    margin: 0 auto;
+  }
+  .card-big a {
+      top: 87%; left: 62%;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .cards-big  {
+    width: 500px;
+    margin: 0 auto;
+  }
+    .card-big a {
+      top: 87%; left: 38%;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .cards-big  {
+    width: 450px;
+    margin: 0 auto;
+  }
+     .card-big a {
+      top: 87%; left: 2%;
+        padding: 4px 9px;
+  }
+}

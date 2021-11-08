@@ -1,0 +1,134 @@
+.cards-small  {
+ display: flex; 
+ justify-content: center;
+ height: 230px;
+ flex-wrap: nowrap ;
+}
+
+.card-small {
+background-color: green;
+width: 400px;
+height: 210px;
+border-radius: 9px;
+padding: 4px;
+margin-right: 0px;
+margin-left: 0px;
+margin: 4px;
+}
+
+.card-small a {
+background-color:#F9AB05 ;
+  padding: 4px 30px;
+  border-radius: 9px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  position: relative;
+  top: 87%; left: 58%;
+}
+
+.card-smalls {
+background-color: green;
+width: 400px;
+height: 210px;
+border-radius: 9px;
+padding: 4px;
+margin-right: 0px;
+margin-left: 0px;
+margin: 4px;
+}
+
+.card-smalls a {
+background-color:#F9AB05 ;
+  padding: 4px 30px;
+  border-radius: 9px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  position: relative;
+  top: 87%; left: 30%;
+}
+
+.car-1 {
+  background-image: url(../../images/escrime.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.car-2 {
+  background-image: url(../../images/tennis.jpg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.car-3 {
+  background-image: url(../../images/football.jpg);
+  background-size: cover;
+}
+
+.car-4 {
+  background-image: url(../../images/formula.jpg);
+  background-size: cover;
+}
+
+.car-5 {
+  background-image: url(../../images/run.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.car-6 {
+  background-image: url(../../images/rugby.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.car-13 {
+  background-image: url(../../images/swim.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+.car-14 {
+  background-image: url(../../images/julien.jpg);
+  background-position: center;
+  background-size: contain;
+}
+
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .cards-small  {
+    width: 800px;
+    margin: 0 auto;
+  }
+  .card-small a {
+      top: 87%; left: 62%;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .cards-small  {
+    width: 500px;
+    margin: 0 auto;
+  }
+    .card-small a {
+      top: 87%; left: 38%;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .cards-small  {
+    width: 450px;
+    margin: 0 auto;
+  }
+     .card-small a {
+      top: 87%; left: 2%;
+        padding: 4px 9px;
+  }
+}

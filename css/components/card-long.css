@@ -1,0 +1,63 @@
+.cards-long {
+ display: inline;
+ justify-content: center;
+ height: 210px;
+ width: 800px;
+ margin: 0 auto;
+}
+
+
+.card-long {
+background-color: green;
+width: 400px;
+height: 210px;
+border-radius: 9px;
+padding: 4px;
+margin-right: 0px;
+margin-left: 0px;
+margin: 4px;
+}
+
+
+.card-long a {
+background-color:#F9AB05 ;
+  padding: 4px 16px;
+  border-radius: 9px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  position: relative;
+  top: 87%; left: 62%;
+}
+
+.cards-long img {
+position: absolute;
+top: 135%; left: 55%;
+
+}
+
+.car-9 {
+  background-image: url(../../images/casa.jpg);
+  background-size: cover;
+  max-width: 100%;
+}
+
+.car-10 {
+  background-image: url(../../images/appartement.jpg);
+  background-size: cover;
+  max-width:100% ;
+}
+
+.car-11 {
+  background-image: url(../../images/bar.jpg);
+  background-size: cover;
+  max-width:100% ;
+}
+
+
+.car-12 {
+  background-image: url(../../images/restau.jpg);
+  background-size: cover;
+  max-width:100% ;
+}

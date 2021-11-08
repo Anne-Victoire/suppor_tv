@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+
+@import url("components/container.css");
+@import url("components/banner.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/card-small.css");
+@import url("components/card-big.css");
+@import url("components/foot.css");
+@import url("components/navbar.css");
+@import url("components/card-about.css");
+@import url("components/search-bar.css");
+@import url("components/search-cal.css");
+@import url("components/banner-orange.css");
+@import url("components/searchbtn.css");
+@import url("components/info.css");
+@import url("components/card-long.css");
+@import url("components/filters.css");
+@import url("components/hostcard.css");
+
+
+
+body{  
+font-family: 'Lato', sans-serif;
+font-size: 18px;
+margin: 0px;
+}
+
+h1{
+font-family: 'Arvo', serif;
+font-size: 32px;
+}
+
+h2 {
+font-family: 'Arvo', serif;
+font-size: 32px;
+color: #048434;
+}
+
+h3 {
+font-family: 'Arvo', serif;
+font-size: 8px;
+color: #048434;
+}
+
+a {
+text-decoration: none;
+color: #4059AD;
+font-weight: bold;
+padding: 0px 40px;
+color: white;
+font-family: 'Lato', sans-serif;
+}
+
+a:hover {
+color: #048434;
+}
+

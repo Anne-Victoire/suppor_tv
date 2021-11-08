@@ -1,0 +1,90 @@
+.search-cal body {
+  background-color: white;
+}
+
+
+
+
+.search-cal .header {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+
+.search-cal h1 {
+  color: black;
+  margin-bottom: 70px;
+  font-size: 45px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+
+
+.search-field {
+  height: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  margin-right: 10px;
+}
+
+
+
+.What {
+  width: 230px;
+}
+
+.Where {
+  width: 135px;
+}
+
+.When {
+  width: 135px;
+}
+
+
+.arrow{
+  margin-left: 20px;
+}
+
+.search-btn {
+  height: 40px;
+  width: 170px;
+  background: #F9AB05;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+
+
+.search-btn:hover{
+  background: #ffc107;
+  cursor: pointer;
+
+}
+
+.form-box{
+  background: #048434;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+.search-cal .img {
+  margin-top: 30px;
+  border-radius: 4%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+

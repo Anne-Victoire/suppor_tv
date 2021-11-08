@@ -1,0 +1,85 @@
+.filters .container {
+  width: 800px;
+  margin:0 auto;
+  background-color: rgba(249, 171, 5, 0.16) ;
+}
+
+
+
+.flex-centre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.flex-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-column-centre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flex-column-around {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.flex-column-between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+/* Filters */
+
+.marg-filters {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+    color: #048434;
+}
+
+.marg-filters-title {
+    margin-right: 20px;
+
+}
+
+
+.filters-text-icons {
+    border: 2px solid #048434;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+    background-color: white;
+
+}
+
+
+.filters-text {
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 20px;
+  border-radius: 0 25px 25px 0;
+
+}
+
+.filters-text-icons:hover > .filters-text {
+    color: orange;
+    cursor: pointer;
+}

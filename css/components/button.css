@@ -1,0 +1,18 @@
+.btn-orange {
+	background-color:#F9AB05 ;
+	padding: 4px 30px;
+	border-radius: 9px;
+	color: white;
+	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+}
+
+.btn-green {
+	background-color:#048434 ;
+	padding: 4px 30px;
+	border-radius: 9px;
+	color: white;
+	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+}
+

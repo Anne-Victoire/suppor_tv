@@ -1,0 +1,54 @@
+.banner { 
+  background-size: cover;     
+  background-position: center;
+  color: white;
+  padding: 130px 0px;
+  height: 260px;
+  background-size: cover;     
+  background-position: center;
+}
+
+.banner a {
+  position: absolute;
+  top: 80%; left: 20%;
+}
+
+.btn-green a : hover {
+background-color: orange;
+
+}
+
+.banner .btn-green {
+  background-color:#048434 ;
+  padding: 20px 30px;
+  border-radius: 9px;
+  color: black;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+}
+
+
+.ban-1 {
+  background-image: url(../../images/supporters.jpg);
+  background-size: cover;
+}
+
+.ban-2 {
+  background-image: url(../../images/fun.jpg);
+  background-size: cover;
+}
+
+.ban-3 {
+  background-image: url(../../images/players.jpg);
+  background-size: cover;
+}
+
+.ban-4 {
+  background-image: url(../../images/friends.jpg);
+  background-size: cover;
+}
+
+.ban-5 {
+  background-image: url(../../images/scarf.jpg);
+  background-size: cover;
+}
