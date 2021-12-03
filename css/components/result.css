@@ -1,0 +1,128 @@
+.result {
+  margin-left: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+
+.result__location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+}
+
+.result__map {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+}
+
+.carddroite {
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  margin-left: 20px;
+}
+
+.endroit {
+  width: 647px;
+  height: 235px;
+  padding: 5px;
+  border-radius: 14px;
+}
+.etoilevide {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  margin-left: 460px;
+  bottom: 230px; 
+}
+.btn-green {
+  width: 119.44px;
+  height: 38px;
+  position: relative;
+  left: 510px;
+  bottom: 50px;
+}
+.btn-green {
+  text-decoration: none;
+  color: #4059ad;
+  font-weight: bold;
+  padding: 0px 40px;
+  color: white;
+  font-family: "Lato", sans-serif;
+  width: 119, 4px;
+}
+a:hover {
+  color: #ffebbf;
+}
+
+.map {
+  width: 570px;
+  height: 655px;
+  margin-bottom: 20px;
+}
+.pub {
+  width: 570px;
+  height: 405px;
+  padding-top: 20px;
+  margin-top: -15px;
+}
+
+h2 {
+  position: relative;
+  width: 786px;
+  height: 48px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  color: #048434;
+}
+
+.replay {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+  height: max-content;
+  margin-left: 60px;
+  margin-top: 100px;
+}
+
+.sport {
+  width: 375px;
+  height: 190px;
+  border-radius: 12px;
+}
+.btn-orange {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+  display: inline;
+  width: 500px;
+  color: #ffffff;
+  text-align: left;
+
+  background: #f9ab05;
+  border-radius: 9px;
+}
+.btn-orange {
+  display: inline;
+  position: relative;
+  width: 500px;
+  height: 26px;
+  left: -250px;
+  bottom: -80px;
+  text-align: left;
+}

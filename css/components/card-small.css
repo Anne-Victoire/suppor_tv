@@ -28,29 +28,6 @@ background-color:#F9AB05 ;
   top: 87%; left: 58%;
 }
 
-.card-smalls {
-background-color: green;
-width: 400px;
-height: 210px;
-border-radius: 9px;
-padding: 4px;
-margin-right: 0px;
-margin-left: 0px;
-margin: 4px;
-}
-
-.card-smalls a {
-background-color:#F9AB05 ;
-  padding: 4px 30px;
-  border-radius: 9px;
-  color: white;
-  font-weight: bold;
-  font-family: 'Lato', sans-serif;
-  text-align: center;
-  position: relative;
-  top: 87%; left: 30%;
-}
-
 .car-1 {
   background-image: url(../../images/escrime.jpg);
   background-size: cover;
@@ -83,19 +60,6 @@ background-color:#F9AB05 ;
   background-image: url(../../images/rugby.jpg);
   background-size: cover;
   background-position: center;
-}
-
-.car-13 {
-  background-image: url(../../images/swim.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
-
-.car-14 {
-  background-image: url(../../images/julien.jpg);
-  background-position: center;
-  background-size: contain;
 }
 
 
