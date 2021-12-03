@@ -55,6 +55,7 @@
   color: white;
   border-radius: 10px;
   font-size: 15px;
+  text-decoration:none;
 }
 
 .search-btn:hover{
