@@ -1,0 +1,216 @@
+
+.fondunique{
+  background-image: url("../../images/fond.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.telephone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 750px;
+  height: 1300px;
+  position: relative;
+  overflow-x: scroll;
+  scroll-snap-type: y;
+  scroll-snap-type: inline;
+  scroll-snap-align: start;
+  scroll-padding: 50px;
+margin-left: 380px;
+margin-top: 330px;
+}
+
+.card1 {
+  margin-top: 830px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 33%;
+}
+.fille {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+}
+.julien1 {
+  margin-top: 10px;
+  width: 290px;
+  height: 395px;
+  border-radius: 20px;
+}
+.fille2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+}
+.presentation {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+.comments {
+  font-family: Lato;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+.etoiles {
+  width: 175px;
+  height: 38px;
+  position: relative;
+  margin-left: 5px;
+  bottom: 0px;
+}
+.card2 {
+  display: flex;
+  width: 624px;
+  height: 450px;
+  margin-left: 70px;
+  margin-top: 50px;
+}
+
+.card2 p {
+  font-family: Lato;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 15px;
+  color: #000000;
+}
+
+.btn-orange1 {
+  background-color: #f9ab05;
+  padding: 4px 30px;
+  border-radius: 9px;
+  color: white;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  width: 345.29px;
+  height: 89.9px;
+}
+.bouton1{
+  position: relative;
+  margin-top: 450px;
+  left: -300px; 
+  text-align: center;
+  display: inline-block;
+}
+.card3{
+  display: flex;
+  flex-direction: row;
+  height: inherit;
+  margin-top: 350px;
+  margin-left: 90px;
+}
+.foot {
+  width: 279px;
+  height: 147px;
+  position: relative;
+  border-radius: 20px;
+}
+.match{
+  margin-left: 20px;
+}
+.psg{
+  font-family: Lato;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+
+  color: #FFFFFF
+}
+.btn-orange2 {
+  background-color: #f9ab05;
+  padding: 4px 30px;
+  border-radius: 9px;
+  color: white;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  width: 345.29px;
+  height: 89.9px;
+}
+.book{
+  position: relative;
+  margin-top: 30px;
+  margin-left: 30px; 
+}
+
+.card4{
+  display: flex;
+  flex-direction: row;
+  margin-top: 200px;
+  margin-left: 0px;
+}
+
+.julien2{
+width: 187px;
+height: 239px;
+border-radius: 20px;
+margin-left: 141px;
+}
+.confirmed{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+
+  color: #000000 
+}
+
+.card5{
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 280px;
+}
+.logo{
+  width: 48px;
+  height: 42px;
+  margin-bottom: 10px;
+}
+.icon{
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+}
+.legende{
+  font-family: Lato;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+
+  color: #000000  
+}
